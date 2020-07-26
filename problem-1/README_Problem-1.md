@@ -1,13 +1,21 @@
 Terraform installation on Windows Laptop:
 
 1.Go to Hashicorp download page https://www.terraform.io/downloads.html and download windows installer.
+
 2.Run the downloaded installer and set the Path variable so that you can run it from any location/directory from your laptop.
+
 3. To set path follow below steps:
+
 a) Open the Start Search, type in “env”, and choose “Edit the system environment variables”
+
 b) Click the “Environment Variables…” button.
+
 c) Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+
 d) The “Edit environment variable” UI will appear. Here, you can click “New” and type in the new path(where you install terraform exe) you want to add. From this screen you can also edit or reorder them.
+
 e) Dismiss all of the dialogs by choosing “OK”. Your changes are saved!
+
 f) You will probably need to restart apps for them to pick up the change.
 
 NOTE: If you have already installed and configure AWS CLI or python boto/boto3 library then terraform can use your AWS access_key and secret_key from their configuration otherwise you need to specify these values in the providers.tf file so that Teraform can access your AWS account to create required infrastructure.
