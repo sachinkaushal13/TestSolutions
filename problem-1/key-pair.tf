@@ -1,0 +1,4 @@
+resource "aws_key_pair" "kp_devops" {
+  key_name   = "kp_devops"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAYZvpkPGgAj2738eKYtrSxXyzrNceYR14quTGxdASqvcQNLLKodQzLHHUtd16CzPShwkVG7/5obC7rcJhcALTHOVaKdWmilMp1cjmNF115e8OAlma/EhAF89dTmGjA4y39FEURnWhsM4/m/0SdR5fzGznIrA2t/LitCGd4ApVq4R3JIue/sqMh8PsSCOVzcWMHEeVS+kAaYUtMiTBJVzgfi7VHEhY5nrVYHX8uiKlWG4rykj0YgplmPYf4DyWOshpgAxgiq0jWaiR55AI/w13v3hWqKyMcWQgkc4O6c9urSLvaiO7ft/A8diV5j/QZa2hFu5l2jT/tx7QYjJVj7al aws_terraform_ssh_key"
+}
