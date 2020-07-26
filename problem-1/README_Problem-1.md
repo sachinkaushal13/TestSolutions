@@ -51,3 +51,7 @@ Infrastructure managed by Terraform will be destroyed. This will ask for confirm
 Usage: terraform output [options] [NAME]
 
 With no additional arguments, output will display all the outputs for the root module. If an output NAME is specified, only the value of that output is printed.
+
+NOTE1: We can combine all our modules files in a single file but to make it easy to understand have seprate each module.
+
+NOTE2: To create key-pair we have to specify public key in the key-pair file. We can use SSH key-gen utility to generate both public and private key.And this private key will be used to SSH access of created EC2 instance.
